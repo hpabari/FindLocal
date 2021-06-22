@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Background"
+    tools:context=".activities.AdvertiseFormActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:text="Your Name:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_height="wrap_content"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <TextView
+        android:text="Business Name:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/business_name_edit_text"
+        android:layout_height="wrap_content"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <TextView
+        android:text="Business and Service Information:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/information_edit_text"
+        android:layout_height="80dp"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <TextView
+        android:text="Questions:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/questions_edit_text"
+        android:layout_height="80dp"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <TextView
+        android:text="Email:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_height="wrap_content"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <TextView
+        android:text="Number:"
+        style="@style/AdvertQueryFormTextViews" />
+
+    <EditText
+        android:id="@+id/number_edit_text"
+        android:layout_height="wrap_content"
+        style="@style/AdvertQueryEditTextStyle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

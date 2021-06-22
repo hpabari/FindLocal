@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/title</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <!-- First page text view style -->
+    <style name="FirstPageTextView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">30sp</item>
+        <item name="android:layout_marginRight">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="FirstPageTextViewAdvertise" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">25sp</item>
+        <item name="android:layout_marginLeft">55sp</item>
+        <item name="android:layout_marginRight">55sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Background" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="SearchEditTextStyle">
+        <item name="android:textColor">@color/colouredText</item>
+    </style>
+
+    <style name="AdvertQueryEditTextStyle" parent="SearchEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:backgroundTint">@color/whiteText</item>
+    </style>
+
+    <style name="AdvertQueryFormTextViews">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:backgroundTint">@color/whiteText</item>
+    </style>
+
+    <style name="DetailsPageText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+
+    </style>
+
+    <style name="detail_icon_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="detail_title_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colouredText</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="search_result_items">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+</resources>

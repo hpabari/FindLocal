@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="darkBlue">#15456E</color>
+    <color name="darkerBlue">#0F3352</color>
+
+    <!--<color name="background">#008577</color>
+    <color name="title">#014E46</color>
+    <color name="statusBar">#001F1B</color>
+
+    <color name="listItem">#00998a</color>
+-->
+    <color name="background">#850026</color>
+    <color name="title">#4B0014</color>
+    <color name="statusBar">#25000A</color>
+
+    <color name="listItem">@color/background</color>
+    <color name="whiteText">@android:color/white</color>
+    <color name="colouredText">@color/background</color>
+
+    <color name="grey">#666666</color>
+</resources>

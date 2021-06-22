@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Find Local</string>
+    <string name="user_button">Search Now</string>
+    <string name="advertiser_button">I want to advertise my business</string>
+    <string name="searchTitle">Find my local..</string>
+    <string name="transition_string">details_transition</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

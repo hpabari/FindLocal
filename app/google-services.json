@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692933948187",
+    "firebase_url": "https://find-local-leic.firebaseio.com",
+    "project_id": "find-local-leic",
+    "storage_bucket": "find-local-leic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692933948187:android:733ac84d8cc87e962399be",
+        "android_client_info": {
+          "package_name": "com.t.findlocal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692933948187-i3erobhj4jor99m9rmbpklc568j8kpqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t.findlocal",
+            "certificate_hash": "b3c655461ee3122107780f9cee5a281ed149cca7"
+          }
+        },
+        {
+          "client_id": "692933948187-pmhje9ccbkrae3ba94p4kn84q05e6gc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnjLOgBu3U4ecnbHVqPdNFCAFXY1ZikA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692933948187-pmhje9ccbkrae3ba94p4kn84q05e6gc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
